@@ -17,3 +17,7 @@ Route::get('/dina', function () {
     return view('welcome');
 });
 
+Route::get('/a', function () {
+    return view('about');
+});
+
