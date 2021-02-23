@@ -21,3 +21,7 @@ Route::get('/a', function () {
     return view('about');
 });
 
+Route::get('/d', function () {
+    return "Dina";
+});
+ 
